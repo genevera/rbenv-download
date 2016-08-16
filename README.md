@@ -5,7 +5,7 @@ rbenv-download is an [rbenv](https://github.com/sstephenson/rbenv) plugin that p
 ## Installation
 
 ```console
-$ git clone https://github.com/PHPCEO/rbenv-download.git ~/.rbenv/plugins/rbenv-download
+$ git clone https://github.com/PHPCEO/rbenv-download.git ${RBENV_ROOT}/plugins/rbenv-download
 ```
 
 ## Usage
