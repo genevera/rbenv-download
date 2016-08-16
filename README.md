@@ -1,11 +1,11 @@
-# rvm-download
+# rbenv-download
 
-rvm-download is an [rbenv](https://github.com/sstephenson/rbenv) plugin that provides an `rbenv download` command to download and extract ruby binaries from the [RVM binaries repository](https://rvm.io/binaries/).
+rbenv-download is an [rbenv](https://github.com/sstephenson/rbenv) plugin that provides an `rbenv download` command to download and extract ruby binaries from the [RVM binaries repository](https://rvm.io/binaries/).
 
 ## Installation
 
 ```console
-$ git clone https://github.com/garnieretienne/rvm-download.git ~/.rbenv/plugins/rvm-download
+$ git clone https://github.com/PHPCEO/rbenv-download.git ~/.rbenv/plugins/rbenv-download
 ```
 
 ## Usage
@@ -78,3 +78,4 @@ To eliminate this warning, please install libyaml and reinstall your ruby.
 ```
 
 Install the `libyaml` package available on your distribution. (`libyaml-0-2` on Ubuntu)
+
