@@ -18,7 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
       echo 'eval "$(rbenv init -)"' >> ~/.profile
       mkdir -p ~/.rbenv/plugins
-      ln -s /vagrant ~/.rbenv/plugins/rvm-download
+      ln -s /vagrant ~/.rbenv/plugins/rbenv-download
     SCRIPT
 
     host.vm.provision "shell", :inline => bootstrap_script, :privileged => false
